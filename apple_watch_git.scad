@@ -87,7 +87,7 @@ cylinder(r = 2.3, h = 0.55, $fn = 100, center = true);
     }
 }
 }
-///</crown>>>
+///</crown>>>///
 module fnc(c){
 ///made the button thinner, original: 22.65 for 0.42///
     translate([0, 22.25/2, 0]){
