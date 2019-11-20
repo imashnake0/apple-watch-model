@@ -77,7 +77,6 @@ cube([42.5, 36.44, 0.08], center = true);
 }
 ///</screen>///
 ///<crown>///
-translate([0, 5, 0]){
 minkowski(){
     sphere(r = 1.04, $fn = 100);
     translate([-7.78, 16.155, 0.55]){
@@ -85,7 +84,6 @@ minkowski(){
 cylinder(r = 2.3, h = 0.55, $fn = 100, center = true);
         }
     }
-}
 }
 ///</crown>>>///
 module fnc(c){
@@ -115,4 +113,3 @@ intersection(){
 fnc(100);
 fncc(100);
 }
-///github test///
